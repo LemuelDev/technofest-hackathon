@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif
+}
+
+
+.blob img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -10;
+    width: 600px;
+    height: 600px;
+    border-bottom-left-radius: 70%;
+}
+
+.img-top {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+}
+.register {
+    padding-top: 3rem;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 3rem;
+    
+}
+
+.img-top .prof {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+.text-side {
+    text-align: start;
+    max-width: 40%;
+}
+.text-side p {
+    padding-top: 2rem;
+}
+.text-side .wrap {
+    padding-bottom: 2rem;
+}
+
+.register-side {
+    padding: 2rem;
+    border-radius: 35px;
+    background-color: white;
+    box-shadow: 2px 4px 6px rgba(0,0,0,.3);
+    height: 620px;
+}
+.register-form {
+    display: grid;
+    place-content: center;
+    gap: 2rem;
+    height: auto;
+    padding-inline: 1rem;
+    padding-top: 3rem;
+
+}
+.register-form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register-form div h4 {
+    font-size: 1rem;
+}
+
+
+.register-form div h4 span {
+    color: red;
+}
+
+.register-form div .fields {
+    padding: .6rem 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #7C828D;
+}
+.site {
+    padding-top: 5rem;
+}
+.captcha {
+    font-size: .8rem ;
+    color: #7C828D;
+}
+.captcha a{
+    font-size: .8rem ;
+}
+
+.register-form button {
+    padding: 1.3rem ;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #7B68EE;
+    border: none;
+}
+
+.first-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.box-content {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    align-items: start;
+    padding-top: 8rem;
+}
+.title h4{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 5rem;
+    font-weight: bolder;
+}
+
+.box-img img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 15px;
+}
+.box-text h4 {
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+}
+.measure {
+    color: red;
+}
+.box-text .gain {
+    padding-block: 1rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.box-text .compete {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.box-text p {
+    padding-block: 1rem;
+    color:  #7C828D;
+}
+
+.box-text button {
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #7B68EE;
+    font-weight: bold;
+}
+
+section {
+    padding-bottom: 1rem;
+}
+
+
+@media(max-width: 1024px) {
+    .box-content {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .box-text {
+        padding-inline: 1rem;
+    }
+    .register .text-side {
+        max-width: 100%;
+        text-align: center;
+    }
+    .img-top {
+        margin: 0 auto;
+    }
+    .register {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 500px) {
+    .box-img img {
+        max-width: 300px;
+        
+    }
+    .register .text-side {
+        max-width: fit-content;
+        margin: auto 0;
+    }
+} 
+
+
+
+
